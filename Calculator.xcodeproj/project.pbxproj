@@ -15,6 +15,7 @@
 		74C74AE01C52620100335BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74C74ADE1C52620100335BF6 /* LaunchScreen.storyboard */; };
 		74C74AEB1C52620100335BF6 /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C74AEA1C52620100335BF6 /* CalculatorTests.m */; };
 		74C74AF61C52620100335BF6 /* CalculatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C74AF51C52620100335BF6 /* CalculatorUITests.m */; };
+		74C74B081C53BB6F00335BF6 /* CalculatorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C74B071C53BB6F00335BF6 /* CalculatorModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		74C74AF11C52620100335BF6 /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74C74AF51C52620100335BF6 /* CalculatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorUITests.m; sourceTree = "<group>"; };
 		74C74AF71C52620100335BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74C74B061C53BB6F00335BF6 /* CalculatorModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorModel.h; sourceTree = "<group>"; };
+		74C74B071C53BB6F00335BF6 /* CalculatorModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				74C74AD31C52620100335BF6 /* AppDelegate.h */,
+				74C74B061C53BB6F00335BF6 /* CalculatorModel.h */,
+				74C74B071C53BB6F00335BF6 /* CalculatorModel.m */,
 				74C74AD41C52620100335BF6 /* AppDelegate.m */,
 				74C74AD61C52620100335BF6 /* ViewController.h */,
 				74C74AD71C52620100335BF6 /* ViewController.m */,
@@ -276,6 +281,7 @@
 				74C74AD81C52620100335BF6 /* ViewController.m in Sources */,
 				74C74AD51C52620100335BF6 /* AppDelegate.m in Sources */,
 				74C74AD21C52620100335BF6 /* main.m in Sources */,
+				74C74B081C53BB6F00335BF6 /* CalculatorModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
